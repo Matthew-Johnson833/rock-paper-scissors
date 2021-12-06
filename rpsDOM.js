@@ -99,6 +99,7 @@ function playRound(playerSelect, computerSelect) {
 
     if (playerSelect === computerSelect) {
         console.log("It's a tie!");
+        alert("It's a tie!");
         return "It's a tie!";
     } else if (playerSelect === "rock" && computerSelect === "paper" ||
         playerSelect === "paper" && computerSelect === "scissors" ||
